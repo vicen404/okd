@@ -1,0 +1,18 @@
+
+{
+    version: 1,
+    storageDriverName: ontap-nas,
+    backendName: nas-backend,
+    managementLIF: 192.168.3.160,
+    dataLIF: 192.168.3.165,
+    svm: k8s1,
+    username: admin,
+    password: Prosol.0,
+    storage: [
+        {
+            "labels":{"system":"nas1", "cpd":"site1", "type":"ontap-nas"}
+	}
+		]
+
+}
+
