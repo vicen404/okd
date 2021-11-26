@@ -515,7 +515,7 @@
             "displayName": "Version of NodeJS Image",
             "name": "NODEJS_VERSION",
             "required": true,
-            "value": "12"
+            "value": "12-ubi8"
         },
         {
             "description": "Version of NodeJS App Environment",
